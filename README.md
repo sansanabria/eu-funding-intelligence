@@ -79,7 +79,7 @@ eu-funding-intelligence/
 
 ## How to Navigate This Repo
 
-**If you are a recruiter or hiring manager:**
+**If you are a manager:**
 → Start with `INSIGHTS.md` for key findings, then browse `03_powerbi/screenshots/`
 
 **If you are a technical reviewer:**
