@@ -131,7 +131,3 @@ See [`03_powerbi/README.md`](03_powerbi/README.md) for setup instructions.
 **Collected:** March 2025
 
 ---
-
-## About This Project
-
-Built as part of a professional portfolio demonstrating end-to-end capabilities across project management, data analysis, and business analysis — applied to a real-world EU funding research use case in the clean energy and sustainability sector.
