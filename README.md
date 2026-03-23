@@ -3,7 +3,7 @@
 > A full-cycle research and analysis project built to help companies identify, evaluate, and approach European Investment Fund (EIF)-backed financial intermediaries for project funding.
 
 **Data source:** [European Commission — Access to EU Finance Portal](https://youreurope.europa.eu/business/finance-funding/getting-funding/access-finance/en/financial-intermediaries)
-**Data collected:** March 2025 |
+**Data collected:** March 2025
 
 ---
 
