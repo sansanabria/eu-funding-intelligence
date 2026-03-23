@@ -19,16 +19,6 @@ This project bridges that gap by:
 
 ---
 
-## Skills Demonstrated
-
-| Role | Skills |
-|---|---|
-| **Project Manager** | Problem scoping, research methodology, stakeholder communication, strategic recommendations |
-| **Data Analyst** | Python, pandas, data cleaning, EDA, scoring model, Power BI dashboard |
-| **Business Analyst** | Decision framework design, opportunity matrix, gap analysis, business case framing |
-
----
-
 ## Repository Structure
 
 ```
