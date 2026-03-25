@@ -10,30 +10,51 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
 
-fig, axes = plt.subplots(2, 3, figsize=(14, 6))
-fig.patch.set_facecolor('#F4F6FB')
+# --- Brand palette ---
+NAVY    = '#233C64'
+STEEL   = '#4B648C'
+COPPER  = '#AA7D3C'
+SAGE    = '#377D55'
+ROSE    = '#9B5050'
+TEAL    = '#377882'
+TXT     = '#1E2332'
+TXT_MED = '#5A6478'
+BG      = '#FFFFFF'
+SURFACE = '#F7F8FC'
+
+fig, axes = plt.subplots(2, 3, figsize=(14, 6.5))
+fig.patch.set_facecolor(BG)
 
 kpis = [
-    ('Total Fund\nManagers',     str(len(dataset)),                                         '#003399'),
-    ('Countries\nCovered',       str(dataset['country_primary'].nunique()),                  '#0066CC'),
-    ('Total EIF\nCapital',       f"EUR {dataset['eif_commitment_eur'].sum()/1e6:.1f}M",     '#3399FF'),
-    ('Funds Fit\nSolar',         str(int(dataset['solar_fit'].sum())),                       '#FFD700'),
-    ('Funds Fit\nHydrogen',      str(int(dataset['hydrogen_fit'].sum())),                    '#FF6600'),
-    ('Funds Fit\nDesalination',  str(int(dataset['desalination_fit'].sum())),                '#0099CC'),
+    ('TOTAL FUND\nMANAGERS',      str(len(dataset)),                                        NAVY),
+    ('COUNTRIES\nCOVERED',         str(dataset['country_primary'].nunique()),                 STEEL),
+    ('TOTAL EIF\nCAPITAL',         f"EUR {dataset['eif_commitment_eur'].sum()/1e6:.1f}M",    COPPER),
+    ('FUNDS FIT\nSOLAR',           str(int(dataset['solar_fit'].sum())),                      SAGE),
+    ('FUNDS FIT\nHYDROGEN',        str(int(dataset['hydrogen_fit'].sum())),                   TEAL),
+    ('FUNDS FIT\nDESALINATION',    str(int(dataset['desalination_fit'].sum())),                ROSE),
 ]
 
-for ax, (label, value, color) in zip(axes.flat, kpis):
-    ax.set_facecolor(color)
-    ax.text(0.5, 0.58, value, ha='center', va='center',
-            fontsize=28, fontweight='bold', color='white', transform=ax.transAxes)
-    ax.text(0.5, 0.2, label, ha='center', va='center',
-            fontsize=11, color='white', alpha=0.9, transform=ax.transAxes)
+for ax, (label, value, accent) in zip(axes.flat, kpis):
+    ax.set_facecolor(SURFACE)
+    # Colored top accent bar
+    ax.add_patch(plt.Rectangle((0, 1), 1, 0.06, transform=ax.transAxes,
+                                color=accent, clip_on=False))
+    # Value
+    ax.text(0.5, 0.55, value, ha='center', va='center',
+            fontsize=30, fontweight='bold', color=NAVY,
+            fontfamily='Arial', transform=ax.transAxes)
+    # Label
+    ax.text(0.5, 0.18, label, ha='center', va='center',
+            fontsize=9, color=TXT_MED, fontfamily='Arial',
+            linespacing=1.4, transform=ax.transAxes)
     ax.set_xticks([])
     ax.set_yticks([])
     for spine in ax.spines.values():
         spine.set_visible(False)
 
-plt.suptitle('EU Funding Intelligence — EIF Fund Managers Overview',
-             fontsize=14, fontweight='bold', color='#003399', y=1.02)
+plt.suptitle('EU Funding Intelligence  |  EIF Fund Managers Overview',
+             fontsize=14, fontweight='bold', color=NAVY,
+             fontfamily='Arial', y=1.02)
+plt.subplots_adjust(hspace=0.35, wspace=0.25)
 plt.tight_layout()
 plt.show()
