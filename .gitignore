@@ -22,3 +22,7 @@ desktop.ini
 # Temporary
 *.tmp
 temp_*
+
+# Binary source files (PDFs are the viewable versions on GitHub)
+05_stakeholder_outputs/*.xlsx
+05_stakeholder_outputs/*.pptx
