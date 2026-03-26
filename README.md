@@ -1,4 +1,4 @@
-# EIF Intermediary List Toolkit
+# EU Funding Intermediary Analysis
 
 > A full-cycle research and analysis project built to help companies identify, evaluate, and approach European Investment Fund (EIF)-backed financial intermediaries for project funding.
 

@@ -1,6 +1,6 @@
 """
 01 — Data Cleaning
-Project: EIF Intermediary List Toolkit
+Project: EU Funding Intermediary Analysis
 Source: European Commission — Access to EU Finance Portal
 Purpose: Transform raw Excel data into a clean, structured CSV
 """

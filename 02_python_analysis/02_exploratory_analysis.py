@@ -1,6 +1,6 @@
 """
 02 — Exploratory Data Analysis
-Project: EIF Intermediary List Toolkit
+Project: EU Funding Intermediary Analysis
 Purpose: Explore the cleaned dataset to identify patterns, distributions, gaps, and insights
 """
 

@@ -1,6 +1,6 @@
 """
 03 — Strategic Scoring Model
-Project: EIF Intermediary List Toolkit
+Project: EU Funding Intermediary Analysis
 Purpose: Score and rank each fund manager based on fit with company projects
 
 Scoring Methodology (out of 10):
