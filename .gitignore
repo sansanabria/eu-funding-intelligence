@@ -24,5 +24,7 @@ desktop.ini
 temp_*
 
 # Binary source files (PDFs are the viewable versions on GitHub)
-05_stakeholder_outputs/*.xlsx
-05_stakeholder_outputs/*.pptx
+05_analysis_reports/*.xlsx
+05_analysis_reports/*.pptx
+05_analysis_reports/*.py
+05_analysis_reports/*.png

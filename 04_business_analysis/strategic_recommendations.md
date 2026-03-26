@@ -78,7 +78,7 @@ Prioritized action plan based on the analysis of 12 EIF-backed financial interme
 - Refresh data quarterly as EIF mandates and commitments change
 
 ### 4.2 Track Outreach Progress
-- Use the outreach tracker (`05_stakeholder_outputs/outreach_tracker.xlsx`) to log all contacts, meetings, and proposals
+- Use the outreach tracker (`05_analysis_reports/outreach_tracker.pdf`) to log all contacts, meetings, and proposals
 - Update status column: Not contacted → Contacted → Meeting scheduled → Proposal submitted → Decision pending
 
 ### 4.3 Monitor EU Policy Changes

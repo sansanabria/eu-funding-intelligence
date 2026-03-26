@@ -15,7 +15,7 @@ This project bridges that gap by:
 1. Curating and cleaning the raw intermediary data
 2. Building a decision framework to match companies to the right funds
 3. Analyzing and scoring fund managers by project fit
-4. Delivering stakeholder-ready outputs for executive and operational audiences
+4. Delivering analysis reports for executive and operational audiences
 
 ---
 
@@ -46,10 +46,10 @@ eu-funding-intelligence/
 │   ├── gap_analysis.md                  ← Funding gaps identified
 │   └── strategic_recommendations.md    ← Prioritized action plan
 │
-├── 05_stakeholder_outputs/
+├── 05_analysis_reports/
 │   ├── executive_summary.pdf            ← CEO/COO 1-pager
-│   ├── outreach_tracker.xlsx            ← Manager operational tool
-│   └── pitch_deck.pptx                  ← Stakeholder presentation
+│   ├── outreach_tracker.pdf             ← Fund manager tracking report
+│   └── pitch_deck.pdf                   ← Executive presentation
 │
 └── docs/
     ├── methodology.md                   ← Research approach and process

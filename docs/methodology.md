@@ -34,7 +34,7 @@ Identify, curate, and analyze EIF-backed financial intermediaries available thro
 - Framework mirrors the portal's filter logic for direct applicability
 - Documented in `docs/decision_framework.md`
 
-### Phase 6 — Stakeholder Outputs
+### Phase 6 — Analysis Reports
 - Translated analysis into audience-specific deliverables:
   - Executive summary (CEO/COO)
   - Outreach tracker (operational managers)
