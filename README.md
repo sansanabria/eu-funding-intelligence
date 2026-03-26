@@ -64,7 +64,7 @@ eu-funding-intelligence/
 ### What Was Researched
 12 EIF-backed fund managers across Spain, Portugal, Sweden, and globally — covering:
 - Private Equity, Venture Capital, Infrastructure, and Debt funds
-- Total EIF commitments ranging from €10.5M to €51.7M per intermediary
+- Total EIF commitments ranging from €2.8M to €41.2M per intermediary
 - SDG-aligned impact funds targeting clean energy, water, and sustainability
 
 ### Key Projects This Research Supports
@@ -79,17 +79,20 @@ eu-funding-intelligence/
 
 ## How to Navigate This Repo
 
-**If you are a manager:**
-→ Start with `INSIGHTS.md` for key findings, then browse `03_powerbi/screenshots/`
+**If you want the executive overview:**
+→ Open `05_analysis_reports/executive_summary.pdf` — a single-page dashboard with all key metrics, rankings, and recommended actions
 
-**If you are a technical reviewer:**
-→ Start with `02_python_analysis/01_data_cleaning.ipynb`
+**If you want the full strategic analysis:**
+→ Start with `INSIGHTS.md`, then review `04_business_analysis/strategic_recommendations.md` and `05_analysis_reports/pitch_deck.pdf`
 
-**If you are evaluating BA skills:**
-→ Go to `04_business_analysis/` and `docs/decision_framework.md`
+**If you want to explore the data and methodology:**
+→ Start with `02_python_analysis/01_data_cleaning.ipynb` through the scoring model, then `docs/methodology.md`
 
-**If you are a potential collaborator or company:**
-→ Start with `docs/decision_framework.md` to see if EU funding applies to you
+**If you want to check if EU funding applies to your company:**
+→ Go to `docs/decision_framework.md` — a 7-step eligibility guide with direct portal links
+
+**If you want the interactive dashboard:**
+→ Download `03_powerbi/eif_dashboard.pbix` or browse `03_powerbi/screenshots/` for previews
 
 ---
 
